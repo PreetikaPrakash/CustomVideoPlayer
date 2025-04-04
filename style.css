@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h4 {
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+.videoplayer {
+  padding: 20px;
+}
+.container {
+  box-shadow: 0 8px 20px rgba(255, 126, 95, 0.8);
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.screen {
+  cursor: pointer;
+  width: 70%;
+  background-color: rgba(255, 126, 95, 0.5);
+  border-radius: 10px;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 126, 95, 0.5);
+  width: 70%;
+  border-radius: 10px;
+}
+.controls .btn {
+  background: transparent;
+  cursor: pointer;
+}
+.controls .fa-play {
+  color: #2a6f3a;
+}
+.controls .fa-stop {
+  color: #8f222d;
+}
+.controls .fa-pause {
+  color: #fff;
+}
+.controls .timestamp {
+  color: #fff;
+  margin-left: 10px;
+  font-weight: bold;
+}
